@@ -1,5 +1,4 @@
 import React from "react";
-import disbalePerson from "../disablity.svg";
 export default function Seats({ rows }) {
   console.log("rows", rows);
 

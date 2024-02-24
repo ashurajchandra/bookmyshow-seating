@@ -17,8 +17,6 @@ background-color: #fafafa;
 }
 
 .seatingData{
-  /* width: 80%; */
-  /* border: 2px solid; */
   margin: auto;
   padding: 0 5% 0 5%;
   background-color: #fafafa;
@@ -39,7 +37,7 @@ background-color: #fafafa;
   display: flex;
     align-items: center;
     width: 90%;
-    gap: 1%;
+    gap: 6px;
 }
 .seatingData__classArea_currentSeat {
   height: 30px;
@@ -61,12 +59,13 @@ background-color: #fafafa;
 }
 .notAvailable{
   visibility: hidden;
+  border: 2px solid #eee ;
 }
 .booked{
   background-color: #eee;
   color: #fff;
   cursor: default;
-  border: 1px solid #eee;
+  border: 2px solid #eee;
 }
 .blocked{
   cursor: not-allowed;
@@ -75,4 +74,5 @@ background-color: #fafafa;
 .disability{
   background-image:url("./disablity.svg");
   background-repeat: no-repeat;
+  cursor: pointer;
 }

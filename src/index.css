@@ -11,3 +11,68 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.wrapper{
+padding: 2px;
+background-color: #fafafa;
+}
+
+.seatingData{
+  /* width: 80%; */
+  /* border: 2px solid; */
+  margin: auto;
+  padding: 0 5% 0 5%;
+  background-color: #fafafa;
+}
+.seatingData__classLabel{
+  border-bottom: 1px solid #ececec ;
+  color: #999;
+  font-size: 12px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-transform: uppercase;
+}
+.seatingData__classArea{
+  display: flex;
+  justify-content: space-between;
+}
+.seatingData__classArea_seats{
+  display: flex;
+    align-items: center;
+    width: 90%;
+    gap: 1%;
+}
+.seatingData__classArea_currentSeat {
+  height: 30px;
+  width: 30px;
+  border: 2px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+}
+.available{
+  border: 2px solid green ;
+  color: green;
+}
+.available:hover{
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+.notAvailable{
+  visibility: hidden;
+}
+.booked{
+  background-color: #eee;
+  color: #fff;
+  cursor: default;
+  border: 1px solid #eee;
+}
+.blocked{
+  cursor: not-allowed;
+  border: 1px solid red;
+}
+.disability{
+  background-image:url("./disablity.svg");
+  background-repeat: no-repeat;
+}
